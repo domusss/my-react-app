@@ -1,33 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Message from './component/Mesage'
+import {Header} from "./component/Header/Header"
+import { About } from "./component/Main/About/About"
+import { Bridging } from "./component/Main/Bridging/Bridging"
+import {Service} from "./component/Main/Service/Service"
+import {Portfolio} from "./component/Main/Portfolio/Portfolio"
+import {Company} from "./component/Main/Company/Company"
+import {Testimonial} from "./component/Main/Testimonial/Testimonial"
+import { Book } from "./component/Main/Book/Book"
+import { Print } from "./component/Main/Print/Print"
+import { Footer } from "./component/Footer/Footer"
+
 
 export function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <Message text="Click on the Vite and React logos to learn more"/>
-    </>
+    <div className="container">
+  <Header/>
+  <Bridging/>
+  <About/>
+  <Service/>
+  <Portfolio/>
+  <Company/>
+  <Testimonial/>
+  <Book/>
+  <Print/>
+  <Footer/>
+    </div>
   )
 }
 
