@@ -1,4 +1,5 @@
 import React from "react";
+import {CardList}  from "/workspaces/my-react-app/card/CardList.tsx";
 
 export const Service = (): React.ReactElement => {
    return (
@@ -13,7 +14,9 @@ export const Service = (): React.ReactElement => {
 
             <div className="service__card-container">
 
-                <div className="service__card">
+                <CardList/>
+
+                {/* <div className="service__card">
                     <img src="img/icons/lab.png" alt="Лабораторный Флакон" className="service__flacon-img"/>
                     <div className="service__comment">
                         <h2 className="service__card-title">Фирменный дизайн</h2>
@@ -84,7 +87,7 @@ export const Service = (): React.ReactElement => {
                             и добро пожаловать в нашу компанию. Со мной все в порядке, но теперь я убираю его в
                             холодильник на Хэллоуин, фанаты.</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
    )
