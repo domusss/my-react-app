@@ -1,0 +1,12 @@
+@import url(container.module.css);
+
+@import url(../component/Header/Header.module.css);
+@import url(../component/Main/Bridging/Bridging.module.css);
+@import url(../component/Main/About/About.module.css);
+@import url(../component/Main/Service/Service.module.css);
+@import url(../component/Main/Portfolio/Portfolio.module.css);
+@import url(../component/Main/Company/Company.module.css);
+@import url(../component/Main/Testimonial/Testimonial.module.css);
+@import url(../component/Main/Book/Book.module.css);
+@import url(../component/Main/Print/Print.module.css);
+@import url(../component/Footer/Footer.module.css);
