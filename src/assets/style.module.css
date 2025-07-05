@@ -1,4 +1,4 @@
-@import url(container.css);
+@import url(container.module.css);
 
 @import url(../component/Header/Header.module.css);
 @import url(../component/Main/Bridging/Bridging.module.css);
