@@ -10,3 +10,5 @@
 @import url(../component/Main/Book/Book.module.css);
 @import url(../component/Main/Print/Print.module.css);
 @import url(../component/Footer/Footer.module.css);
+
+@import url("../NotFoundPage/NotFoundPage.module.css");
