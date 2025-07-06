@@ -1,0 +1,44 @@
+.not-found-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  box-sizing: border-box;
+}
+
+.not-found-page__title {
+  font-size: 72px;
+  color: #e63946;
+  margin: 0;
+}
+
+.not-found-page__description {
+  font-size: 18px;
+  color: #555;
+  margin: 1rem 0 2rem;
+  max-width: 500px;
+}
+
+.nfp__button {
+  padding: 0.8rem 1.5rem;
+  font-size: 16px;
+  background-color: #e63946;;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nfp__button:hover {
+  background-color: #e63946;;
+}
+
+.text{
+    text-decoration: none;
+    color: #FFFF;
+}

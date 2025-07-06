@@ -44,10 +44,11 @@ export const Footer = (): React.ReactElement => {
             </div>
             <div className="footer__contact">
                 <p className="footer__contact-copyright">&copy; 2022 Nixxsol All Rights Reserved.</p>
-                <div className="footer__social__network-block" />
-                <img src="img/icons/facebook.png" alt="Фейсбук" className="footer__social__network-img" />
-                <img src="img/icons/instagram.png" alt="Инстаграм" className="footer__social__network-img" />
-                <img src="img/icons/twitter.png" alt="Твиттер" className="footer__social__network-img" />
+                <div className="footer__social__network-block">
+                    <img src="img/icons/facebook.png" alt="Фейсбук" className="footer__social__network-img" />
+                    <img src="img/icons/instagram.png" alt="Инстаграм" className="footer__social__network-img" />
+                    <img src="img/icons/twitter.png" alt="Твиттер" className="footer__social__network-img" />
+                </div>
             </div>
         </footer >
     )
