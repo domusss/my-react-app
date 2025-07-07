@@ -10,7 +10,7 @@ export const Header = (): React.ReactElement => {
     return (
         <header className="header container">
             <NavLink to="/" className="header__item-link">
-                <img src="img/logo.png" alt="Логотип" className="header__logo-img" />
+                <img src="img/pizza.png" alt="Логотип" className="header__logo-img" />
             </NavLink>
             <nav className="header__nav">
                 <ul className="header__list">
@@ -18,7 +18,7 @@ export const Header = (): React.ReactElement => {
                         <NavLink to="/" className="header__item-link">О нас</NavLink>
                     </li>
                     <li className="header__list-item">
-                        <NavLink to="/" className="header__item-link">ИТ-услуги</NavLink>
+                        <NavLink to="/" className="header__item-link">Пиццы</NavLink>
                         <img src="img/icons/checkMark.png" alt="Подтверждение" className="header__item__logo-img" />
                     </li>
                     <li className="header__list-item">

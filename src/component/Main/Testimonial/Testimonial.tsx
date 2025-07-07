@@ -6,7 +6,7 @@ export const Testimonial =(): React.ReactElement => {
             <div className="testimonial__content">
                 <h1 className="testimonial__title">Рекомендации</h1>
                 <p className="testimonial__description">
-                    Лорем ипсум - основная команда. Теперь это будет успокаивающим элементом.
+                   Наша команда
                 </p>
                 <button className="testimonial__button">Исследовать </button>
             </div>
