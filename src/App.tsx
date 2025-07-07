@@ -1,7 +1,6 @@
 import { BrowserRouter,Routes, Route } from "react-router";
 import { Layout } from "./Layout";
 import { Pithily } from "./Pithily";
-import { Header } from "./component/Header/Header";
 import { NotFoundPage } from "./Pages/NotFoundPage/NotFoundPage";
 import { CardsPage } from "./Pages/CardPage/CardPage";
 

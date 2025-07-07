@@ -14,3 +14,5 @@
 @import url(../Pages/NotFoundPage/NotFoundPage.module.css);
 
 @import url(../Pages/CardPage/CardPage.module.css);
+
+@import url(../component/forms/Form.module.css);
