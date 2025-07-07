@@ -1,0 +1,10 @@
+.cards__map {
+    display: grid;
+    grid-template-columns: repeat(3, 285px);
+    grid-gap: 30px;
+
+    justify-content: center;
+    justify-items: center;
+
+    padding-top: 30px;
+}

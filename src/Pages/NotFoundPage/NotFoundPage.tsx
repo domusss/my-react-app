@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
-import { Header } from "../component/Header/Header";
+import { Header } from "../../component/Header/Header";
  
 
 export const NotFoundPage = (): React.ReactElement => {
