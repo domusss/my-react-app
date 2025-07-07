@@ -15,8 +15,8 @@
 
 }
 
-.portfolio__bank-img,
-.portfolio__soider-img{
+.portfolio__p2-img,
+.portfolio__p3-img{
     display: none;
 }
 
@@ -95,9 +95,9 @@ font-weight: 800;
     position: relative;
 }
 
-.portfolio__bank-img,
-.portfolio__soider-img,
-.portfolio__game-img{
+.portfolio__p2-img,
+.portfolio__p3-img,
+.portfolio__p1-img{
     width: 697px;
     height: 400px;
 }
@@ -108,7 +108,7 @@ font-weight: 800;
         font-size: 50px;
     }
 
-    .portfolio__game-img {
+    .portfolio__p1-img {
         width: 638px;
         height: 342px;
     }
@@ -119,7 +119,7 @@ font-weight: 800;
         font-size: 30px;
     }
 
-    .portfolio__game-img {
+    .portfolio__p1-img {
         width: 520px;
         height: 330px;
     }

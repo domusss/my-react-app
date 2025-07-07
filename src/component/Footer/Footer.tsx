@@ -4,7 +4,6 @@ export const Footer = (): React.ReactElement => {
     return (
         <footer className="footer container">
             <div className="footer__content">
-                <img src="img/icons/nixxsol.png" alt="Логотип" className="footer__logo" />
 
                 <div className="footer__connection">
                     <div className="footer__connection-block footer__connection-phone">
@@ -12,13 +11,13 @@ export const Footer = (): React.ReactElement => {
                         <img src="img/icons/phone.png" alt="Телефон" className="footer__phone" />
                     </div>
                     <div className="footer__connection-block footer__connection-pochta">
-                        <h4 className="footer__info-pochta">info@nixxsol.com</h4>
+                        <h4 className="footer__info-pochta">info@pizza.com</h4>
                         <img src="img/icons/pochta.png" alt="Почта" className="footer__pochta" />
                     </div>
                     <div className="footer__connection-block footer__connection-location">
                         <h4 className="footer__info-location">
-                            Лорем ипсум - основная команда. У меня есть возможность
-                            <br />бесплатно почитать книгу Мэтью.
+                            Moskow City
+                            <br />
                         </h4>
                         <img src="img/icons/location.png" alt="Геолокоцая" className="footer__location" />
                     </div>
@@ -43,7 +42,7 @@ export const Footer = (): React.ReactElement => {
                 </div>
             </div>
             <div className="footer__contact">
-                <p className="footer__contact-copyright">&copy; 2022 Nixxsol All Rights Reserved.</p>
+                <p className="footer__contact-copyright">&copy; 2007 Italian PIZZA Corporated.</p>
                 <div className="footer__social__network-block">
                     <img src="img/icons/facebook.png" alt="Фейсбук" className="footer__social__network-img" />
                     <img src="img/icons/instagram.png" alt="Инстаграм" className="footer__social__network-img" />
