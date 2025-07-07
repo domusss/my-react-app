@@ -13,17 +13,6 @@
     margin-right: 15px;
 }
 
-.swiper-button-prev{
-    rotate: 90;
-}
-
-.swiper-button-next{
-    transform: rotate(90deg);
-}
-
-.swiper-button-prev{
-    transform: rotate(-90deg);
-}
 .testimonial__title{
     font-weight: 800;
     font-size: 80px;
@@ -38,6 +27,11 @@
 
 .card-2{
     display: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color:white;
 }
 
 .testimonial__button{
