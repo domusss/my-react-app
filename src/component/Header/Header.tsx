@@ -1,14 +1,18 @@
-import React from "react";
-import { NavLink } from "react-router"
+import React, {useState} from "react";
+import { NavLink } from "react-router";
+import { Forms } from "../forms/Form";
+
+
 
 export const Header = (): React.ReactElement => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
         <header className="header container">
             <NavLink to="/" className="header__item-link">
                 <img src="img/logo.png" alt="Логотип" className="header__logo-img" />
             </NavLink>
             <nav className="header__nav">
-
                 <ul className="header__list">
                     <li className="header__list-item">
                         <NavLink to="/" className="header__item-link">О нас</NavLink>
@@ -25,8 +29,12 @@ export const Header = (): React.ReactElement => {
                     </li>
                 </ul>
 
-                <button className="header__nav-button button-contact">Свяжитесь с нами</button>
+                <button className="header__nav-button button-contact" onClick={() => setIsModalOpen(true)}>
+                    Свяжитесь с нами
+                </button>
             </nav>
+
+            {isModalOpen && <Forms onClose={() => setIsModalOpen(false)} />}
         </header>
-    )
-}
+    );
+};
