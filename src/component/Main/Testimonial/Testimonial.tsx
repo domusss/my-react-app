@@ -5,7 +5,7 @@ export const Testimonial = (): React.ReactElement => {
     return (
         <section className="testimonial container">
             <div className="testimonial__content">
-                <h1 className="testimonial__title">Рекомендации</h1>
+                <h1 className="testimonial__title">Основатели</h1>
                 <p className="testimonial__description">
                     Наша команда
                 </p>
