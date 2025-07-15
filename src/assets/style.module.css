@@ -11,4 +11,8 @@
 @import url(../component/Main/Print/Print.module.css);
 @import url(../component/Footer/Footer.module.css);
 
-@import url("../NotFoundPage/NotFoundPage.module.css");
+@import url(../Pages/NotFoundPage/NotFoundPage.module.css);
+
+@import url(../Pages/CardPage/CardPage.module.css);
+
+@import url(../component/forms/Form.module.css);
